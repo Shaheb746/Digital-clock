@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #612dbe;
+    display: grid;
+    margin: auto;
+    height: 100%;
+    place-content: center;
+}
+h1{
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+}
+.clock{
+    margin: 40px 0px;
+    color: #fff;
+    font-size: 10vw;
+    padding: 20px 0px;
+    text-align: center;
+}
+@media (max-width: 500px) {
+    h1{
+        font-size: 7vw;
+    }
+    h2{
+        font-size: 9vw;
+    }
+    .clock{
+        font-size: 15vw;
+    }
+}
